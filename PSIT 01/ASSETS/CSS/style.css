@@ -1,0 +1,142 @@
+#banner {
+
+    
+}
+.Julian {
+    font-style: italic;
+    color:rgb(247, 242, 244);
+
+}
+.btn {
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+.btn-brand {
+    background-color: rgb(236, 240, 240);
+}
+.btn-brand:hover {
+    background-color: transparent;
+    color: aquamarine;
+    border-color:white;
+}
+.Donna {
+    color:rgb(18, 2, 10);
+}
+section {
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+#about {
+    min-height: 100vh;
+    background: url(https://images.ctfassets.net/usf1vwtuqyxm/6lTe5sMDfNK3Rc9vuaXgkt/1fe1c4c92fea25cf913284f94f83b051/Date_Announcement_Post_Seb-_1_.jpg?fm=jpg&q=70&w=2560);
+    background-size: cover;
+    
+}
+#Services {
+    min-height: 100vh;
+    background: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/hogwarts-legacy/6/66/Raven.png?width=1280);
+    background-size: cover;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icon-img-box {
+    width: 40%;
+}
+.card {
+    transition: background-color 0.3s, 0.3s;
+}
+
+.card:hover {
+    background-color: rgb(104, 57, 90);
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn {
+    color: aliceblue;
+}
+
+.btn-outlined-brand {
+    color: #f2b03f;
+    background-color: transparent;
+    border-color: #f705f7;
+
+}
+
+.btn-outlined-brand:hover {
+    background-color: #f2b03f;
+}
+#cta {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 25%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url(https://images.ctfassets.net/usf1vwtuqyxm/4j6x7iMI88aicYasciiMsm/ebe15036f6c78846c3e8b2fde3ea5795/HogwartsCastle_WB_F5_HogwartsCastleIllustration_Illust_080615_Land.jpg?fm=jpg&q=70&w=2560);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.donya {
+    color: white;
+}
+.h3 {
+    color: white;
+}
+#Reviews{
+    background-color: var(--white);
+}
+
+.testimonial {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonial img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#Reviews a {
+    color: var(--brand);
+}
+
+:root {
+    --bg1: #036161;
+    --bg2: rgb(53, 53, 110);
+    --body: rgb(77, 2, 250);
+    --brand: #2904ff;
+    --white: rgb(235, 235, 235);
+    --p: rgb(161, 150, 150);
+}
+
+#Reviews {
+    min-height: 100vh;
+    background: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/hogwarts-legacy/6/66/Raven.png?width=1280);
+    background-size: cover;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #683aa4;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+ 
+section p{
+    font-size: 16px;
+    font-weight: 300;
+}
+ 
+button{
+    max-width: 50%;
+    border-radius: 50px !important;
+}
